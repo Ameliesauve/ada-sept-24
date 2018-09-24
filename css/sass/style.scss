@@ -1,1 +1,28 @@
-@import 'main';
+header {
+    nav {
+        display: flex;
+    }
+    .list-container {
+        display: flex;
+        padding: 0;
+        width: 100%;
+        .list-item {
+            list-style-type: none;
+            text-align: center;
+            width: 100%;
+        }
+    }
+}
+
+.link {
+    padding: 1rem;
+    background-color: rgb(68, 196, 126);
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover {
+        background-color: grey;
+        color: rgb(48, 48, 48);
+    }
+}

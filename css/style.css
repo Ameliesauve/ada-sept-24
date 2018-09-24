@@ -1,5 +1,28 @@
-body {
-  background-color: white;
+header nav {
+  display: flex;
+}
+header .list-container {
+  display: flex;
+  padding: 0;
+  width: 100%;
+}
+header .list-container .list-item {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+}
+
+.link {
+  padding: 1rem;
+  background-color: #44c47e;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link:hover {
+  background-color: grey;
+  color: #303030;
 }
 
 /*# sourceMappingURL=style.css.map */
